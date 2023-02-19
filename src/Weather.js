@@ -71,13 +71,9 @@ export default function Weather(props) {
         <WeatherForecast coordinates={weatherData.coordinates} city={weatherData.city}/>
         <footer>
           This project was coded by{" "}
-          <a
-            href="https://www.shecodes.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            SheCodes
-          </a>{" "}
+          
+            Daria Rudenko
+          {" "}
           and is{" "}
           <a
             href="https://github.com/dariarudenko6/weather-app"
